@@ -37,6 +37,6 @@ ehthumbs.db
 Thumbs.db
 .~lock.README.txt#
 
-# Folder #
+# Extra #
 ######################
-*/.secrets/*
+.contrasena.py
