@@ -36,3 +36,7 @@
 ehthumbs.db
 Thumbs.db
 .~lock.README.txt#
+
+# Folder #
+######################
+*/.secrets/*
