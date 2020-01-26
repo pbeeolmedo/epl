@@ -41,3 +41,5 @@ Thumbs.db
 ######################
 contrasena.py
 __pycache__/contrasena.cpython-37.pyc
+__pycache__/text_to_file.cpython-37.pyc
+Output.txt
