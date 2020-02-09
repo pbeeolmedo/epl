@@ -4,6 +4,8 @@ from selenium import webdriver
 import time
 from text_to_file import text_to_file
 
+output_file = "Output.txt"
+
 def epl_results_page(i):
     return f"https://www.oddsportal.com/soccer/england/premier-league/results/#/page/{i}/"
     
@@ -19,7 +21,7 @@ time.sleep(2)
 driver.find_element_by_xpath("//div[@id='timezone-content']/a[75]/span").click()
 
 
-open("Output.txt","w").close()
+open(output_file,"w").close()
 
 for i in range(8,0,-1):
     url = epl_results_page(i)
